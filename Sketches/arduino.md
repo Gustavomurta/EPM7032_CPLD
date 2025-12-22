@@ -1,1 +1,27 @@
 
+```
+EPM7032S Parallel Programmer - ERASE V6
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000101
+Test count: 1
+End
+
+EPM7032S - Phase 1
+Port PB PH00: 10000000  // SCOB(PB3) / SDOUTB(PB2) / SCOA(PB1) / SDOUTA(PB0)
+Port PB PH01: 10000101  // SCOB(PB3) / SDOUTB(PB2) / SCOA(PB1) / SDOUTA(PB0)
+Test count: 2
+End
+
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000101
+Test count: 3
+End
+
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000101
+Test count: 4
+End
+```
