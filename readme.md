@@ -6,6 +6,7 @@ After confirming that it's necessary to enable parallel programming mode on the 
 by applying 12V to pin 44 - EDIT/VPP, everything became clearer to me.
 
 This project is based on discussions from the EEV Blog forum: 
+
 https://www.eevblog.com/forum/fpga/programming-(non-jtag)-max7000-devices/msg6159005/#msg6159005
 
 EPM7032S - JTAG UNLOCK - first time without clear IDCODE!!
