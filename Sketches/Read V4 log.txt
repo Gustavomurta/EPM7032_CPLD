@@ -1,0 +1,272 @@
+
+Testing my 8 chips (Chip1 and Chip2 - Cleared IDCODE):
+
+EPM7032 Programmer - Arduino MEGA testes 2026_01_12.txt
+
+CHIP1 EPM7032S =============================================
+
+EPM7032S Parallel Programmer - READ V4
+Test count: 1
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+CHIP2 EPM7032S =============================================
+
+EPM7032S Parallel Programmer - READ V4
+Test count: 1
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+CHIP3 EPM7032S =============================================
+
+EPM7032S Parallel Programmer - READ V4
+Test count: 1
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A3( )  0()      ByteSCOB = E7( ) FF( )
+ ByteSCOA = FF( )  82( )      ByteSCOB = 56(V) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A3( )  0()      ByteSCOB = E7( ) FF( )
+ ByteSCOA = FF( )  82( )      ByteSCOB = 56(V) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+
+CHIP4 EPM7032S =============================================
+
+EPM7032S Parallel Programmer - READ V4
+Test count: 1
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10001000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A4( )  0()      ByteSCOB = DB( ) FF( )
+ ByteSCOA = FF( )  3()      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10001000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A4( )  0()      ByteSCOB = DB( ) FF( )
+ ByteSCOA = FF( )  3()      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+CHIP5 EPM7032S =============================================
+
+EPM7032S Parallel Programmer - READ V4
+Test count: 1
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000111
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A3( )  0()      ByteSCOB = E3( ) FF( )
+ ByteSCOA = FF( )  2()      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000111
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A3( )  0()      ByteSCOB = E3( ) FF( )
+ ByteSCOA = FF( )  2()      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+
+
+CHIP6 EPM7032S =================================
+
+EPM7032S Parallel Programmer - READ V4
+Test count: 1
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = BF( )  0()      ByteSCOB = 3() FF( )
+ ByteSCOA = FF( )  83( )      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = BF( )  0()      ByteSCOB = 3() FF( )
+ ByteSCOA = FF( )  83( )      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+
+
+CHIP7 EPM7032S ======================================================
+
+
+EPM7032S Parallel Programmer - READ V4
+Test count: 1
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A3( )  0()      ByteSCOB = E3( ) FF( )
+ ByteSCOA = FF( )  3()      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Port PB PH00: 10000000
+Port PB PH01: 10000000
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A3( )  0()      ByteSCOB = E3( ) FF( )
+ ByteSCOA = FF( )  3()      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+
+CHIP8 EPM7032S =============================================
+
+EPM7032S Parallel Programmer - READ V4
+Test count: 1
+EPM7032S - Phase 1
+Port PB PH00: 10001011
+Port PB PH01: 10000111
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A4( )  0()      ByteSCOB = DF( ) FF( )
+ ByteSCOA = FF( )  82( )      ByteSCOB = 56(V) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Port PB PH00: 10001011
+Port PB PH01: 10000111
+Pulses 108 x A6
+Pulses Address 0x43
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A4( )  0()      ByteSCOB = DF( ) FF( )
+ ByteSCOA = FF( )  82( )      ByteSCOB = 56(V) 31(1)
+ ByteSCOA = FF( )  FF( )      ByteSCOB = FF( ) FF( )
+Last Phase
+End
+
+
+=============================================================
