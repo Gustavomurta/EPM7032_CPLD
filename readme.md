@@ -9,7 +9,8 @@ This project is based on discussions from the EEV Blog forum:
 
 https://www.eevblog.com/forum/fpga/programming-(non-jtag)-max7000-devices/msg6159005/#msg6159005
 
-EPM7032S - JTAG UNLOCK - first time without clear IDCODE!!
+**EPM7032S - JTAG UNLOCK - first time without clear IDCODE!!**
+
 Using my Parallel Programmer - Arduino Mega, I was able for the first time to erase an EPM7032S (JTAG UNLOCK) without erasing the IDCODE.
 
 Thank you very much Carlos Ukamak and all the colleagues who helped me.
