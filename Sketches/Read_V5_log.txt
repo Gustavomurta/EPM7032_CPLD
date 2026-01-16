@@ -1,0 +1,55 @@
+EPM7032S - Reading Bytes from EEPROM Memory
+
+https://www.eevblog.com/forum/fpga/programming-(non-jtag)-max7000-devices/msg6160263/#msg6160263
+
+Based on the capture from Pityocas - EPM7032S read TM, I am able to read bytes from a specific address in the EEPROM memory.
+
+In this LA capture, the address selection must follow a sequence of 215 address pulses.
+The sum of pulses should always be 215, I presume.
+
+
+Reading the address 0x43 gives the ID code.
+Reading address 0x5B should be a block of EEPROM memory (Second reading in this example).
+After selecting address 0x5B, pulses of 0x40 should determine the block sequence.
+I will have to do many studies and tests.
+
+=========================================================
+
+EPM7032S Parallel Programmer - READ V5
+Test count: 1
+EPM7032S - Phase 1
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A3(�)  0()      ByteSCOB = E3(�) FF(�)
+ ByteSCOA = FF(�)  2()      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF(�)  FF(�)      ByteSCOB = FF(�) FF(�)
+
+Read SCOA and SCOB  // Address 0x5B + one pulse 0x40
+ ByteSCOA = FF(�)  FF(�)      ByteSCOB = FF(�) FF(�)
+ ByteSCOA = FF(�)  FF(�)      ByteSCOB = FF(�) FF(�)
+ ByteSCOA = 7F()  FF(�)      ByteSCOB = DE(�) CF(�)
+ ByteSCOA = FF(�)  FF(�)      ByteSCOB = FF(�) FF(�)
+ ByteSCOA = 7F()  FF(�)      ByteSCOB = DC(�) C3(�)
+Last Phase
+End
+
+Test count: 2
+EPM7032S - Phase 1
+Read IDCODE
+ ByteSCOA = 41(A)  4C(L)      ByteSCOB = 54(T) 45(E)
+ ByteSCOA = 52(R)  41(A)      ByteSCOB = 39(9) 38(8)
+ ByteSCOA = A3(�)  0()      ByteSCOB = E3(�) FF(�)
+ ByteSCOA = FF(�)  2()      ByteSCOB = 50(P) 31(1)
+ ByteSCOA = FF(�)  FF(�)      ByteSCOB = FF(�) FF(�)
+
+Read SCOA and SCOB  // Address 0x5B + one pulse 0x40
+ ByteSCOA = FF(�)  FF(�)      ByteSCOB = FF(�) FF(�)
+ ByteSCOA = FF(�)  FF(�)      ByteSCOB = FF(�) FF(�)
+ ByteSCOA = 7F()  FF(�)      ByteSCOB = DE(�) CF(�)
+ ByteSCOA = FF(�)  FF(�)      ByteSCOB = FF(�) FF(�)
+ ByteSCOA = 7F()  FF(�)      ByteSCOB = DC(�) C3(�)
+Last Phase
+End
+
+=============================================================
